@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+.header-info{
+    background-color: #006DAA;
+    height: 55px;
+    
+    
+}
+
+
+.info{
+ float: right;
+    display: flex;
+}
+
+.info ul{
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+
+
+
+
+
+.info ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+
+
+}
+
+.info i{
+    margin-right: 8px;
+}
+
+.info img{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    
+}
+
+.btms{
+    background-color: #006DAA;
+    padding-left: 10px;
+    border-color: #006DAA;
+}
+
+.btms:hover{
+    background-color: #005DAA;
+    background-blend-mode:darken;
+}
+
+
+.nav-link{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.carousel-inner .carousel-item{
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner .carousel-item::before{
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.photoes img{
+    height: 60vh;
+
+}
+
+.history-photo img{
+    height: 40vh;
+    margin-top: 10px;
+}
+
+.card-body img{
+    height: 40px;
+    width: 40px;
+    
+   
+}
+
+.picture img{
+    height:250px;
+    width: 260px;
+
+}
+
+.span1{
+    color: #006DAA;
+    
+}
+
+.span2{
+    color: #006DAA;
+    font-size: 50px;
+
+}
+
+
+.hgcard{
+    background-color: #005DAA;
+}
+
+
+.footer-32892 {
+    background-color: #006DAA;
+    padding:50px;
+
+    color: white;
+    font-size: 16px; }
+    .footer-32892, .footer-32892 h3 {
+      font-family: "Poppins", sans-serif; }
+    .footer-32892 h3 {
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 30px; }
+    .footer-32892 p {
+      font-family: "Source Serif Pro", serif; }
+    .footer-32892 .row.gallery {
+      margin-right: -5px;
+      margin-left: -5px; }
+      .footer-32892 .row.gallery > [class^="col-"],
+      .footer-32892 .row.gallery > [class*=" col-"] {
+        padding-right: 5px;
+        padding-left: 5px; }
+    .footer-32892 .gallery a {
+      display: block;
+      margin-bottom: 10px;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+      .footer-32892 .gallery a:hover {
+        opacity: .5; }
+    .footer-32892 .quick-info li {
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 10px; }
+      .footer-32892 .quick-info li a {
+        color: #fff; }
+      .footer-32892 .quick-info li .icon {
+        font-size: 20px;
+        color: #f88020; }
+    .footer-32892 .subscribe {
+      position: relative; }
+      .footer-32892 .subscribe .form-control {
+        background-color: #292b31;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-radius: 30px;
+        height: 55px;
+        padding-left: 30px;
+        padding-right: 130px;
+        border: none;
+        color: #fff; }
+        .footer-32892 .subscribe .form-control::-webkit-input-placeholder {
+          color: #ccc;
+          font-size: 14px; }
+        .footer-32892 .subscribe .form-control::-moz-placeholder {
+          color: #ccc;
+          font-size: 14px; }
+        .footer-32892 .subscribe .form-control:-ms-input-placeholder {
+          color: #ccc;
+          font-size: 14px; }
+        .footer-32892 .subscribe .form-control:-moz-placeholder {
+          color: #ccc;
+          font-size: 14px; }
+      .footer-32892 .subscribe .btn-submit {
+        background:#005DAA;
+        height: 47px;
+        border-radius: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #fff;
+        font-weight: bold;
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); }
+    .footer-32892 .tweets li {
+      margin-bottom: 20px;
+      font-size: 15px;
+      font-style: italic;
+      font-family: "Source Serif Pro", serif; }
+      .footer-32892 .tweets li span {
+        color: #fff; }
+    .footer-32892 .footer-menu-wrap {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 2rem !important;
+      margin-top: 7rem; }
+    .footer-32892 .footer-menu {
+      margin-bottom: 0; }
+      .footer-32892 .footer-menu li {
+        display: inline-block; }
+        @media (max-width: 767.98px) {
+          .footer-32892 .footer-menu li {
+            display: block; } }
+        .footer-32892 .footer-menu li a {
+          padding: 10px;
+          display: inline-block;
+          color: #fff; }
+          @media (max-width: 767.98px) {
+            .footer-32892 .footer-menu li a {
+              display: block;
+              padding-left: 0px; } }
+        .footer-32892 .footer-menu li:first-child a {
+          padding-left: 0; }
+    .footer-32892 .site-logo {
+      color: #fff;
+      font-size: 20px; }
+  
+
+      .fa-solid{
+        padding-right: 5px;
+      }
+
+
+.event-content{
+    height: 300px;
+    background:linear-gradient( #00000080, rgba(0, 0, 0, 0.5) ),url("images/20211016_COMM_waterfire064.jpg") no-repeat;
+   background-position: center;
+   background-size: cover;
+    
+    
+
+}
+
+.cirriculm-content{
+
+    height: 300px;
+    background:linear-gradient( #00000080, rgba(0, 0, 0, 0.5) ),url("images/20211016_COMM_waterfire064.jpg") no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+
+.history-content{
+
+    height: 300px;
+    background:linear-gradient( #00000080, rgba(0, 0, 0, 0.5) ),url("images/20211016_COMM_waterfire064.jpg") no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+
+
+.title-text h1{
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+}
+
+.logo{
+    font-size: 30px;
+    color: #006DAA;
+}
+
+.content-bg{
+
+  
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+
+}
+
+.content-bg h5{
+  font-size: 50px;
+  
+}
+
+
+
+
+
+
+
+
+
